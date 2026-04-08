@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limber Huaycho | Desarrollador Junior</title>
+    <meta name="description" content="Portafolio profesional de Limber Huaycho - Desarrollador Junior especializado en aplicaciones y juegos">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Floating shapes background -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">LH</span>
+                <span class="logo-text">Limber<span class="logo-accent">Dev</span></span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li><a href="privado.html" class="nav-link nav-admin"><i class="fas fa-lock"></i> Admin</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-on-scroll">
+                    <i class="fas fa-code"></i> Disponible para proyectos
+                </div>
+                <p class="hero-greeting animate-on-scroll">Hola, soy</p>
+                <h1 class="hero-name animate-on-scroll">
+                    Limber<br>
+                    <span class="hero-name-accent">Huaycho</span>
+                </h1>
+                <p class="hero-subtitle animate-on-scroll">
+                    Desarrollador Junior • Creo aplicaciones y juegos
+                </p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="#proyectos" class="btn btn-primary btn-hero" id="btn-proyectos">
+                        <i class="fas fa-chevron-down"></i> Mis Proyectos
+                    </a>
+                    <a href="https://wa.me/59170000000" target="_blank" class="btn btn-outline btn-hero" id="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://github.com/limberhuaycho" target="_blank" class="btn btn-outline btn-hero" id="btn-github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://youtube.com/@limberhuaycho" target="_blank" class="btn btn-outline btn-hero btn-youtube" id="btn-youtube">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                </div>
+                <div class="hero-stats animate-on-scroll">
+                    <div class="stat-item">
+                        <span class="stat-number" id="stat-projects">0</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="stat-visits">0</span>
+                        <span class="stat-label">Visitas</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">2024</span>
+                        <span class="stat-label">Inicio</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual animate-on-scroll">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-bg"></div>
+                    <div class="hero-avatar">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <div class="floating-icon floating-icon-1"><i class="fas fa-code"></i></div>
+                    <div class="floating-icon floating-icon-2"><i class="fas fa-laptop-code"></i></div>
+                    <div class="floating-icon floating-icon-3"><i class="fas fa-rocket"></i></div>
+                    <div class="floating-icon floating-icon-4"><i class="fas fa-cog"></i></div>
+                    <div class="floating-icon floating-icon-5"><i class="fas fa-database"></i></div>
+                    <div class="floating-icon floating-icon-6"><i class="fas fa-mobile-alt"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,70 L1440,120 L0,120 Z" fill="currentColor"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="about" id="sobre-mi">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag"><i class="fas fa-user"></i> Conóceme</span>
+                <h2 class="section-title">Sobre <span class="text-gradient">Mí</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card animate-on-scroll">
+                    <div class="about-card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Formación</h3>
+                    <p>Estudiante apasionado por la tecnología y el desarrollo de software. Constantemente aprendiendo nuevas tecnologías.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <div class="about-card-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Pasión</h3>
+                    <p>Me encanta crear soluciones digitales que resuelvan problemas reales. Desde apps móviles hasta juegos interactivos.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <div class="about-card-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Objetivo</h3>
+                    <p>Convertirme en un desarrollador full-stack capaz de crear productos digitales completos y de alta calidad.</p>
+                </div>
+            </div>
+            <div class="skills-section animate-on-scroll">
+                <h3 class="skills-title">Tecnologías que manejo</h3>
+                <div class="skills-grid">
+                    <div class="skill-chip"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-chip"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-chip"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-chip"><i class="fab fa-flutter"></i> Flutter</div>
+                    <div class="skill-chip"><i class="fas fa-fire"></i> Firebase</div>
+                    <div class="skill-chip"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill-chip"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-chip"><i class="fas fa-database"></i> SQL</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag"><i class="fas fa-briefcase"></i> Lo que hago</span>
+                <h2 class="section-title">Mis <span class="text-gradient">Servicios</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    </div>
+                    <h3>Apps Móviles</h3>
+                    <p>Desarrollo de aplicaciones móviles multiplataforma con Flutter y Dart.</p>
+                    <div class="service-tags">
+                        <span>Flutter</span><span>Dart</span><span>Firebase</span>
+                    </div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                    </div>
+                    <h3>Sitios Web</h3>
+                    <p>Páginas web modernas, responsivas y optimizadas con las últimas tecnologías.</p>
+                    <div class="service-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-gamepad"></i></div>
+                    </div>
+                    <h3>Juegos</h3>
+                    <p>Creación de juegos interactivos y divertidos para dispositivos móviles.</p>
+                    <div class="service-tags">
+                        <span>Unity</span><span>Flutter</span><span>Canvas</span>
+                    </div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    </div>
+                    <h3>Diseño UI/UX</h3>
+                    <p>Interfaces intuitivas y atractivas centradas en la experiencia del usuario.</p>
+                    <div class="service-tags">
+                        <span>Figma</span><span>Adobe XD</span><span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag"><i class="fas fa-folder-open"></i> Portafolio</span>
+                <h2 class="section-title">Mis <span class="text-gradient">Proyectos</span></h2>
+                <div class="section-line"></div>
+                <p class="section-description">Aquí puedes ver algunos de los proyectos en los que he trabajado</p>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Los proyectos se cargan dinámicamente desde Firebase -->
+                <div class="projects-loader" id="projects-loader">
+                    <div class="loader-spinner"></div>
+                    <p>Cargando proyectos...</p>
+                </div>
+            </div>
+            <div class="projects-empty" id="projects-empty" style="display:none;">
+                <i class="fas fa-folder-open"></i>
+                <p>Próximamente se agregarán proyectos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag"><i class="fas fa-envelope"></i> Hablemos</span>
+                <h2 class="section-title">Ponte en <span class="text-gradient">Contacto</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>No dudes en contactarme. Estoy disponible para proyectos freelance y colaboraciones.</p>
+                    <div class="contact-methods">
+                        <a href="https://wa.me/59170000000" target="_blank" class="contact-method" id="contact-whatsapp">
+                            <div class="contact-method-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>+591 70000000</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/limberhuaycho" target="_blank" class="contact-method" id="contact-github">
+                            <div class="contact-method-icon github"><i class="fab fa-github"></i></div>
+                            <div>
+                                <strong>GitHub</strong>
+                                <span>@limberhuaycho</span>
+                            </div>
+                        </a>
+                        <a href="https://youtube.com/@limberhuaycho" target="_blank" class="contact-method" id="contact-youtube">
+                            <div class="contact-method-icon youtube"><i class="fab fa-youtube"></i></div>
+                            <div>
+                                <strong>YouTube</strong>
+                                <span>@limberhuaycho</span>
+                            </div>
+                        </a>
+                        <a href="mailto:limber@email.com" class="contact-method">
+                            <div class="contact-method-icon email"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>limber@email.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper animate-on-scroll">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name"><i class="fas fa-user"></i> Nombre</label>
+                            <input type="text" id="name" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment"></i> Mensaje</label>
+                            <textarea id="message" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,40 C480,100 960,0 1440,60 L1440,0 L0,0 Z" fill="currentColor"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">LH</span>
+                    <span class="logo-text">Limber<span class="logo-accent">Dev</span></span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://wa.me/59170000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/limberhuaycho" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://youtube.com/@limberhuaycho" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="footer-copy">&copy; 2024 Limber Huaycho. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Ir arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
